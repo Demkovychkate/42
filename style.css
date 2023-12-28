@@ -1,0 +1,128 @@
+body{
+    background-image: url('https://miro.medium.com/v2/resize:fit:1400/0*JE35tlTRHDeC8n_5');
+    background-size: cover;
+    
+    box-sizing: border-box;
+}
+
+main{
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    flex-direction: column;
+}
+
+.blockWrapper{
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    flex-direction: row;
+}
+main div{
+    font-family: 'Pacifico', cursive;
+    margin:20px;    
+    
+}
+.leftBlock{
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.leftBlock h1{
+    font-family: 'Pacifico', cursive;
+    color:chocolate;
+    margin: 0;
+}
+.leftBlock ul li{    
+    cursor: pointer;
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    margin-bottom: 15px;
+   
+}
+.leftBlock ul li:hover{
+    color:darkgoldenrod;
+ 
+}
+
+.middleBlock{
+    display: none;
+
+}
+.bookslist li{    
+    cursor: pointer;
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.bookslist li:hover{
+    color:darkgoldenrod;
+}
+.rightBlock{
+    display: none;  
+}
+.sale{
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+}
+
+.rightBlock .btn{
+    font-size: 25px;
+}
+
+.customerForm{
+    display: none;    
+    flex-direction: column;    
+    width: 50%;
+   
+}
+.col-md-6{
+    margin-bottom: 0px;
+    width: 50%;
+}
+.row {    
+    display: block;
+}
+
+.commentWrapper{
+    display: flex;
+    flex-direction: column;   
+}
+
+.col-md-4 {
+    height: 70px;
+}
+
+.form-control.is-valid, .was-validated .form-control:valid {
+    border: none;
+    background-image:none;
+}
+
+.customerInfoForm{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+    font-size: 25px;
+    color: black;
+    display: none;
+}
+
+textarea {
+    resize: horizontal;
+  
+}
+
+.customerWrapper{
+    display: flex;
+}
+
+.customerBtn{
+    background:none;
+    border: none;
+    font-size: 25px;
+}
